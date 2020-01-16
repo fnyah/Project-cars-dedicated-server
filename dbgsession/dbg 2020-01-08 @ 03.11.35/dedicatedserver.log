@@ -1,0 +1,78 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-08 @ 03.11.35/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-40cb-8c31
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           08/01/2020
+[Session][Time]           03:11:35
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:11:35:052][0xe0b9a1c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:11:35:058][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[03:11:35:058][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[03:11:35:105][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[03:11:35:115][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[03:11:35:116][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[03:11:35:116][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[03:11:35:120][0xe0b9a1c0] [Warn ] [void NativeLogCallback] [General] Lua: lua/sms_base/sms_base.lua:314: Unknown flag value 'GHOST_GRIEFERS' passed to normalize_session_flags
+[03:11:35:120][0xe0b9a1c0] [ERROR] [void NativeLogCallback] [General] Failed to read addon Lua file from 'lua/sms_rotate/sms_rotate.lua'
+[03:11:35:120][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[03:11:35:121][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[03:11:35:124][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[03:11:35:124][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[03:11:35:627][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[03:11:35:627][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[03:11:35:828][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131733597222920 ; server is secure
+[03:11:35:829][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131733597222920 ; switching to running state
+[03:11:46:234][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198011172579
+[03:11:49:954][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[03:11:49:954][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[03:11:49:954][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[03:11:50:241][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 40384, admin 1
+[03:11:50:242][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:11:50:273][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:11:50:273][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:11:50:560][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:11:52:356][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 31. RTT Confidence was 0.500000, is now 0.500000
+[03:11:52:357][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[03:11:54:366][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:11:54:735][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[03:11:54:736][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 40384, admin 1 - with reason 1
+[03:11:54:736][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[03:11:54:736][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[03:11:54:736][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:11:54:738][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:11:57:543][0xe0b9a1c0] [Info ] [void NativeLogCallback] [General] Shutting down
+[03:11:57:663][0xe0b9a1c0] [Info ] [BLogBase::Term] [Internal] Terminating Log

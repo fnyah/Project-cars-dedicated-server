@@ -1,0 +1,73 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-08 @ 03.03.53/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-40c3-d487
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           08/01/2020
+[Session][Time]           03:03:53
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:03:53:138][0x1d7591c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:03:53:142][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[03:03:53:142][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[03:03:53:189][0x1d7591c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[03:03:53:199][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[03:03:53:200][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[03:03:53:200][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[03:03:53:201][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[03:03:53:202][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[03:03:53:204][0x1d7591c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[03:03:53:205][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[03:03:54:110][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[03:03:54:110][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[03:03:54:261][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131733526372352 ; server is secure
+[03:03:54:261][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131733526372352 ; switching to running state
+[03:03:54:261][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:04:05:120][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198011172579
+[03:04:08:991][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[03:04:08:992][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[03:04:08:992][0x1d7591c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[03:04:09:269][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 23488, admin 1
+[03:04:09:269][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:04:09:300][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:04:09:301][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:04:09:404][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:04:11:374][0x1d7591c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 29. RTT Confidence was 0.500000, is now 0.500000
+[03:04:11:374][0x1d7591c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[03:04:13:375][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:04:15:483][0x1d7591c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 30. RTT Confidence was 0.500000, is now 0.550000
+[03:04:15:483][0x1d7591c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.550000 calculated next timesync start time scheduled for 40 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:04:47:065][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Shutting down
+[03:04:47:068][0x1d7591c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 23488, admin 1 - with reason 0

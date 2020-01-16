@@ -1,0 +1,34 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-07 @ 02.54.08/session.log
+
+[Session][ID]             02f0-7e41-38b6-20f0
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           07/01/2020
+[Session][Time]           02:54:08
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[Session][BMemPool]       [Create] System - 16.00MB
+[Session][BMemPool]       [Create] Base - 16.00MB
+[Session][Thread]         [Create] 0x9b98b1c0 - Main Thread
+[02:54:08:243][0x9b98b1c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[Session][Thread]         [Create] 0x97e8a700 - Net_OneSockThread

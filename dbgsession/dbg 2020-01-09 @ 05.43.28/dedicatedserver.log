@@ -1,0 +1,67 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-09 @ 05.43.28/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-496b-70fb
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           09/01/2020
+[Session][Time]           05:43:28
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[05:43:28:253][0x978c21c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[05:43:28:258][0x978c21c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[05:43:28:258][0x978c21c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[05:43:28:305][0x978c21c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[05:43:28:315][0x978c21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[05:43:28:316][0x978c21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[05:43:28:316][0x978c21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[05:43:28:317][0x978c21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[05:43:28:317][0x978c21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[05:43:28:322][0x978c21c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[05:43:28:322][0x978c21c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[05:43:28:926][0x978c21c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[05:43:28:926][0x978c21c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[05:43:29:077][0x978c21c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131756044790788 ; server is secure
+[05:43:29:077][0x978c21c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131756044790788 ; switching to running state
+[05:43:29:077][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[05:58:29:989][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[06:13:30:715][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[06:28:31:442][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[06:43:32:203][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[06:58:32:886][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[07:13:33:599][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[07:28:34:342][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[07:43:35:078][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[07:58:35:841][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[08:13:36:568][0x978c21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'

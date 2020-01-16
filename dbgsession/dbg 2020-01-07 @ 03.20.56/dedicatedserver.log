@@ -1,0 +1,58 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-07 @ 03.20.56/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-38d4-e011
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           07/01/2020
+[Session][Time]           03:20:56
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:20:56:020][0xed1201c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:20:56:025][0xed1201c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[03:20:56:026][0xed1201c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club
+- max session size: 24
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[03:20:56:062][0xed1201c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[03:20:56:072][0xed1201c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[03:20:56:073][0xed1201c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[03:20:56:073][0xed1201c0] [ERROR] [void NativeLogCallback] [General] Skipping addon 'sms_rotate' because its dependency 'lib_rotate' is not white listed on the server.
+[03:20:56:073][0xed1201c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[03:20:56:073][0xed1201c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[03:20:56:074][0xed1201c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[03:20:56:075][0xed1201c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[03:20:57:076][0xed1201c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[03:20:57:076][0xed1201c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[03:20:57:326][0xed1201c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131711297725440 ; server is secure
+[03:20:57:327][0xed1201c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131711297725440 ; switching to running state
+[03:21:21:173][0xed1201c0] [Info ] [void NativeLogCallback] [General] Shutting down
+[03:21:21:261][0xed1201c0] [Info ] [BLogBase::Term] [Internal] Terminating Log

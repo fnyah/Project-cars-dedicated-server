@@ -1,0 +1,32 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-08 @ 03.11.35/online.log
+
+[Session][ID]             02f0-7e41-40cb-8c31
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           08/01/2020
+[Session][Time]           03:11:35
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          Unknown Base Derived App
+
+[Session][BuildVer]       0.0.0.0
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:11:35:052][0xe0b9a1c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:11:35:052][0xe0b9a1c0] [Info ] [Net_OneSock_Tech::InitNetworkSys] [OneSock] Linux Network Initialized
+[03:11:35:058][0xe0b9a1c0] [Info ] [Net_OneSock::InitNet_OneSockThread] [OneSock] Net_OneSockThread Created and Started Successfully

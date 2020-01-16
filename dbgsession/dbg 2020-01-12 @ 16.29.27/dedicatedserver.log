@@ -1,0 +1,229 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-12 @ 16.29.27/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-641d-6c70
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           12/01/2020
+[Session][Time]           16:29:27
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[16:29:27:115][0x473aa1c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[16:29:27:122][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[16:29:27:122][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[16:29:27:169][0x473aa1c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[16:29:27:179][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[16:29:27:180][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[16:29:27:181][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[16:29:27:181][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[16:29:27:182][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[16:29:27:192][0x473aa1c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[16:29:27:192][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[16:29:27:746][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[16:29:27:746][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[16:29:27:947][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131839136979972 ; server is secure
+[16:29:27:947][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131839136979972 ; switching to running state
+[16:29:27:948][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:29:38:704][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198011172579
+[16:29:39:409][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:29:39:409][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:29:39:409][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:29:39:697][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 62208, admin 1
+[16:29:39:697][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:29:39:728][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:29:39:728][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:29:39:833][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:40:860][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:29:40:860][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 62208, admin 1 - with reason 1
+[16:29:40:860][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:29:40:860][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:29:40:861][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:29:40:861][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:40:868][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:47:462][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:29:47:462][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:29:47:463][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:29:47:740][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 22016, admin 1
+[16:29:47:740][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:29:47:771][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:29:47:771][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:29:47:875][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:48:614][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:29:48:614][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 22016, admin 1 - with reason 1
+[16:29:48:615][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:29:48:615][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:29:48:615][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:29:48:616][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:48:622][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:58:231][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:29:58:231][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:29:58:231][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:29:58:437][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 52992, admin 1
+[16:29:58:437][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:29:58:468][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:29:58:468][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:29:58:572][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:59:507][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:29:59:507][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 52992, admin 1 - with reason 1
+[16:29:59:507][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:29:59:507][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:29:59:508][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:29:59:508][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:29:59:515][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:17:620][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:30:17:621][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:30:17:621][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:30:17:908][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 7232, admin 1
+[16:30:17:908][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:30:17:929][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:30:17:929][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:30:18:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:19:387][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:30:19:387][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 7232, admin 1 - with reason 1
+[16:30:19:387][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:30:19:387][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:30:19:387][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:30:19:388][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:19:395][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:32:421][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:30:32:422][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:30:32:422][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:30:32:698][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 58304, admin 1
+[16:30:32:699][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:30:32:730][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:30:32:730][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:30:32:834][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:33:644][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:30:33:644][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 58304, admin 1 - with reason 1
+[16:30:33:644][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:30:33:645][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:30:33:645][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:30:33:645][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:33:652][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:52:058][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:30:52:059][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:30:52:059][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:30:52:326][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 57408, admin 1
+[16:30:52:326][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:30:52:357][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:30:52:358][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:30:52:462][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:54:403][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:30:54:404][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 57408, admin 1 - with reason 1
+[16:30:54:404][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:30:54:404][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:30:54:404][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:30:54:405][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:30:54:412][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:03:568][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:31:03:569][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:31:03:569][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:31:03:866][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 26048, admin 1
+[16:31:03:866][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:03:897][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:03:897][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:04:000][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:05:976][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 29. RTT Confidence was 0.500000, is now 0.500000
+[16:31:05:976][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[16:31:07:987][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:09:850][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:31:09:850][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 26048, admin 1 - with reason 1
+[16:31:09:850][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:31:09:850][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:31:09:851][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:31:09:851][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:09:858][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:16:957][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:31:16:957][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:31:16:957][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:31:17:234][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 38912, admin 1
+[16:31:17:235][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:17:266][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:17:266][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:17:369][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:18:261][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:31:18:261][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 38912, admin 1 - with reason 1
+[16:31:18:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:31:18:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:31:18:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:31:18:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:18:270][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:29:789][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:31:29:790][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:31:29:790][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:31:30:057][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 38208, admin 1
+[16:31:30:057][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:30:088][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:30:088][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:30:192][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:31:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:31:31:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 38208, admin 1 - with reason 1
+[16:31:31:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198011172579 in timesync slot 0
+[16:31:31:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:31:31:034][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:31:31:035][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:31:042][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:39:294][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[16:31:39:295][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[16:31:39:295][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[16:31:39:582][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 10048, admin 1
+[16:31:39:582][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:39:614][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:39:614][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:39:718][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:41:695][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 30. RTT Confidence was 0.500000, is now 0.500000
+[16:31:41:696][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[16:31:43:703][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:31:45:808][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 29. RTT Confidence was 0.500000, is now 0.550000
+[16:31:45:808][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 0.550000 calculated next timesync start time scheduled for 42 seconds from now (defaultNextSync 40 rttBonus 37)
+[16:31:47:332][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:47:332][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:47:364][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[16:31:47:672][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:31:59:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:59:262][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:31:59:335][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 sent timesync request. DS will schedule the timesync
+[16:31:59:335][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 0.550000 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[16:31:59:356][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[16:31:59:356][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[16:32:00:340][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[16:32:02:441][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 32. RTT Confidence was 0.550000, is now 0.605000
+[16:32:02:441][0x473aa1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 0.605000 calculated next timesync start time scheduled for 44 seconds from now (defaultNextSync 40 rttBonus 34)
+[16:32:03:678][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[16:32:03:678][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 10048, admin 1 - with reason 1
+[16:32:03:678][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[16:32:03:678][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:32:03:685][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[16:32:06:405][0x473aa1c0] [Info ] [void NativeLogCallback] [General] Shutting down
+[16:32:06:463][0x473aa1c0] [Info ] [BLogBase::Term] [Internal] Terminating Log

@@ -1,0 +1,591 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-08 @ 03.14.28/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-40ce-7081
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           08/01/2020
+[Session][Time]           03:14:28
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:14:28:131][0x4058d1c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:14:28:138][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[03:14:28:138][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[03:14:28:186][0x4058d1c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[03:14:28:195][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[03:14:28:196][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[03:14:28:196][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[03:14:28:197][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[03:14:28:198][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[03:14:28:201][0x4058d1c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[03:14:28:202][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[03:14:28:705][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[03:14:28:705][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[03:14:28:856][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131733598897160 ; server is secure
+[03:14:28:856][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131733598897160 ; switching to running state
+[03:14:28:856][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:14:39:464][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198011172579
+[03:14:43:236][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[03:14:43:236][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[03:14:43:236][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[03:14:43:523][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 39552, admin 1
+[03:14:43:523][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:14:43:555][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:14:43:555][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:14:43:648][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:14:45:629][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 31. RTT Confidence was 0.500000, is now 0.500000
+[03:14:45:629][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[03:14:47:633][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:14:49:743][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 0.500000, is now 0.550000
+[03:14:49:743][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.550000 calculated next timesync start time scheduled for 35 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:15:24:752][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:15:26:865][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 0.550000, is now 0.605000
+[03:15:26:865][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.605000 calculated next timesync start time scheduled for 47 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:16:05:196][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198286632013
+[03:16:08:948][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: join the server as user 76561198286632013, name Meddy, size 24, password 
+[03:16:08:949][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198286632013 (Meddy)
+[03:16:09:236][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198286632013 (Meddy) at index 1, refId 4225, admin 0
+[03:16:09:236][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:16:11:374][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 0, is now 39. RTT Confidence was 0.500000, is now 0.500000
+[03:16:11:374][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 first timesync start time scheduled for 2 seconds from now
+[03:16:13:383][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:16:13:875][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:16:15:504][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 0.500000, is now 0.550000
+[03:16:15:504][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.550000 calculated next timesync start time scheduled for 33 seconds from now (defaultNextSync 40 rttBonus 20)
+[03:16:15:986][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 31. RTT Confidence was 0.605000, is now 0.665500
+[03:16:15:986][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.665500 calculated next timesync start time scheduled for 49 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:16:44:587][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:16:48:506][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:16:50:646][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 38. RTT Confidence was 0.550000, is now 0.605000
+[03:16:50:646][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.605000 calculated next timesync start time scheduled for 40 seconds from now (defaultNextSync 40 rttBonus 27)
+[03:17:04:996][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:17:07:113][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 0.665500, is now 0.732050
+[03:17:07:113][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.732050 calculated next timesync start time scheduled for 54 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:17:30:654][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:17:32:782][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 0.605000, is now 0.665500
+[03:17:32:782][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.665500 calculated next timesync start time scheduled for 42 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:17:56:999][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:17:56:999][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:17:57:030][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:17:58:169][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:18:01:119][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:18:03:231][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 31. RTT Confidence was 0.732050, is now 0.805255
+[03:18:03:232][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.805255 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:18:14:789][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:18:16:414][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:18:16:414][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:18:16:488][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 sent timesync request. DS will schedule the timesync
+[03:18:16:488][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.805255 calculated next timesync start time scheduled for 2 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:18:16:499][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 sent timesync request. DS will schedule the timesync
+[03:18:16:499][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.665500 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:18:16:510][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:18:16:510][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:18:18:495][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:18:20:611][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 31. RTT Confidence was 0.805255, is now 0.885781
+[03:18:20:611][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.885781 calculated next timesync start time scheduled for 53 seconds from now (defaultNextSync 40 rttBonus 20)
+[03:18:21:444][0x4058d1c0] [Warn ] [void NativeLogCallback] [General] User 76561198286632013 in timesync slot 0 failed to send DS timesync packets. Rescheduling timesync to this player
+[03:18:21:444][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.332750 calculated next timesync start time scheduled for 0 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:18:21:454][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:18:23:569][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 0.332750, is now 0.366025
+[03:18:23:570][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.366025 calculated next timesync start time scheduled for 28 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:18:51:577][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:18:53:705][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 0.366025, is now 0.402628
+[03:18:53:705][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.402628 calculated next timesync start time scheduled for 28 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:19:13:620][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:19:15:718][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 31. RTT Confidence was 0.885781, is now 0.974359
+[03:19:15:718][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.974359 calculated next timesync start time scheduled for 72 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:19:21:714][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:19:23:839][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 0.402628, is now 0.442890
+[03:19:23:839][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.442890 calculated next timesync start time scheduled for 34 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:19:57:845][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:19:58:440][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:19:59:974][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 0.442890, is now 0.487179
+[03:19:59:975][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.487179 calculated next timesync start time scheduled for 33 seconds from now (defaultNextSync 40 rttBonus 28)
+[03:20:27:726][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:20:29:840][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 32. RTT Confidence was 0.974359, is now 1.000000
+[03:20:29:840][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 64 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:20:32:977][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:20:35:112][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.487179, is now 0.535897
+[03:20:35:112][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.535897 calculated next timesync start time scheduled for 33 seconds from now (defaultNextSync 40 rttBonus 23)
+[03:21:08:115][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:21:10:239][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.535897, is now 0.589487
+[03:21:10:239][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.589487 calculated next timesync start time scheduled for 37 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:21:33:849][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:21:35:941][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:21:35:941][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 71 seconds from now (defaultNextSync 40 rttBonus 31)
+[03:21:47:242][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:21:49:369][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 40. RTT Confidence was 0.589487, is now 0.648436
+[03:21:49:369][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.648436 calculated next timesync start time scheduled for 38 seconds from now (defaultNextSync 40 rttBonus 20)
+[03:21:59:106][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:22:27:376][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:22:29:498][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 39. RTT Confidence was 0.648436, is now 0.713279
+[03:22:29:498][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.713279 calculated next timesync start time scheduled for 56 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:22:46:948][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:22:49:056][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:22:49:056][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 67 seconds from now (defaultNextSync 40 rttBonus 27)
+[03:23:25:501][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:23:27:624][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 0.713279, is now 0.784607
+[03:23:27:624][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.784607 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:23:56:066][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:23:58:172][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:23:58:172][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[03:23:59:776][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:24:28:629][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:24:30:766][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 36. RTT Confidence was 0.784607, is now 0.863068
+[03:24:30:766][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 36 and RTT confidence 0.863068 calculated next timesync start time scheduled for 59 seconds from now (defaultNextSync 40 rttBonus 29)
+[03:25:00:182][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:25:02:291][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[03:25:02:291][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 77 seconds from now (defaultNextSync 40 rttBonus 37)
+[03:25:29:773][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:25:31:908][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 36, is now 38. RTT Confidence was 0.863068, is now 0.949375
+[03:25:31:908][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.949375 calculated next timesync start time scheduled for 65 seconds from now (defaultNextSync 40 rttBonus 29)
+[03:26:00:419][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:26:19:296][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:26:21:400][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[03:26:21:400][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 67 seconds from now (defaultNextSync 40 rttBonus 27)
+[03:26:36:909][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:26:39:033][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 40. RTT Confidence was 0.949375, is now 1.000000
+[03:26:39:034][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:26:40:655][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:26:40:657][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:26:50:544][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561197972489032
+[03:26:54:351][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561197972489032: join the server as user 76561197972489032, name AmooManiaK, size 24, password 
+[03:26:54:351][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561197972489032 (AmooManiaK)
+[03:26:54:628][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561197972489032 (AmooManiaK) at index 2, refId 58306, admin 0
+[03:26:54:628][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561197972489032, allocated timesync slot 0
+[03:26:56:727][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561197972489032 completed timesync. Prev RTT was 0, is now 26. RTT Confidence was 0.500000, is now 0.500000
+[03:26:56:727][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561197972489032 first timesync start time scheduled for 2 seconds from now
+[03:26:58:736][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561197972489032, allocated timesync slot 0
+[03:27:00:840][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561197972489032 completed timesync. Prev RTT was 26, is now 30. RTT Confidence was 0.500000, is now 0.550000
+[03:27:00:840][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561197972489032 with lastRTT 30 and RTT confidence 0.550000 calculated next timesync start time scheduled for 34 seconds from now (defaultNextSync 40 rttBonus 22)
+[03:27:01:614][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:27:01:803][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:27:01:803][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:27:07:973][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561197972489032: leave user 76561197972489032, index 0, refid 0, reason 1
+[03:27:07:973][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561197972489032 (AmooManiaK) at index 2, refId 58306, admin 0 - with reason 1
+[03:27:28:401][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:27:30:518][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[03:27:30:518][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 73 seconds from now (defaultNextSync 40 rttBonus 33)
+[03:27:40:043][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:27:42:176][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:27:42:176][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:28:43:178][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:28:43:527][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:28:45:292][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:28:45:292][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:28:45:630][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[03:28:45:630][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 68 seconds from now (defaultNextSync 40 rttBonus 28)
+[03:29:02:410][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:29:46:296][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:29:48:432][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 36. RTT Confidence was 1.000000, is now 1.000000
+[03:29:48:432][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 36 and RTT confidence 1.000000 calculated next timesync start time scheduled for 78 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:29:53:632][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:29:55:740][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[03:29:55:740][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 71 seconds from now (defaultNextSync 40 rttBonus 31)
+[03:31:03:131][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:31:06:438][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:31:06:746][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:31:08:573][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 36, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[03:31:08:573][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 68 seconds from now (defaultNextSync 40 rttBonus 28)
+[03:31:08:841][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:31:08:841][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 75 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:32:16:576][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:32:18:707][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 40. RTT Confidence was 1.000000, is now 1.000000
+[03:32:18:707][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 1.000000 calculated next timesync start time scheduled for 71 seconds from now (defaultNextSync 40 rttBonus 31)
+[03:32:23:850][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:32:25:945][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[03:32:25:945][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:33:03:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:33:29:716][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:33:31:830][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:33:31:830][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 65 seconds from now (defaultNextSync 40 rttBonus 25)
+[03:33:35:950][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:33:38:046][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:33:38:046][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:34:36:837][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:34:38:953][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[03:34:38:953][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 64 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:34:39:056][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:34:41:163][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:34:41:163][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[03:35:04:523][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:35:42:959][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:35:45:076][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:35:45:076][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[03:35:57:170][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:35:59:257][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:35:59:257][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 68 seconds from now (defaultNextSync 40 rttBonus 28)
+[03:36:47:077][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:36:49:192][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[03:36:49:192][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 72 seconds from now (defaultNextSync 40 rttBonus 32)
+[03:37:05:220][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:37:07:259][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:37:09:362][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[03:37:09:363][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 66 seconds from now (defaultNextSync 40 rttBonus 26)
+[03:38:01:194][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:38:03:323][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:38:03:323][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 71 seconds from now (defaultNextSync 40 rttBonus 31)
+[03:38:15:372][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:38:17:466][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:38:17:466][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 72 seconds from now (defaultNextSync 40 rttBonus 32)
+[03:39:05:966][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:39:14:334][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:39:16:471][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:39:16:471][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 77 seconds from now (defaultNextSync 40 rttBonus 37)
+[03:39:29:472][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:39:31:558][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:39:31:558][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:39:54:560][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:39:54:563][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:40:06:625][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 0
+[03:40:06:625][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'false'
+[03:40:07:312][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:40:07:312][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:40:07:594][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:40:23:032][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[03:40:23:032][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 39552, admin 1 - with reason 1
+[03:40:23:032][0x4058d1c0] [Info ] [void NativeLogCallback] [General] The admin member has left the session, promoting another user to admin
+[03:40:23:032][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Migrated admin to user 76561198286632013 (Meddy) at index 1, refId 4225
+[03:40:24:772][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: leave user 76561198286632013, index 0, refid 0, reason 1
+[03:40:24:772][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198286632013 (Meddy) at index 1, refId 4225, admin 1 - with reason 1
+[03:40:24:772][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[03:40:24:772][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:40:24:773][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:40:24:775][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:40:31:213][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[03:40:31:214][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[03:40:31:214][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[03:40:31:470][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 5248, admin 1
+[03:40:31:471][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:40:31:502][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:40:31:502][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:40:31:606][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:40:33:587][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 31. RTT Confidence was 0.500000, is now 0.500000
+[03:40:33:587][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[03:40:35:589][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:40:37:698][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 0.500000, is now 0.550000
+[03:40:37:698][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.550000 calculated next timesync start time scheduled for 43 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:40:49:595][0x4058d1c0] [Warn ] [void NativeLogCallback] [General] User 76561198286632013 tried to allocate this server while it's in state RunningActive
+[03:40:49:636][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: leave user 76561198286632013, index 0, refid 0, reason 1
+[03:41:03:571][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: join the server as user 76561198286632013, name Meddy, size 24, password 
+[03:41:03:571][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198286632013 (Meddy)
+[03:41:03:827][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198286632013 (Meddy) at index 1, refId 44737, admin 0
+[03:41:03:828][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:41:05:951][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 0, is now 38. RTT Confidence was 0.500000, is now 0.500000
+[03:41:05:952][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 first timesync start time scheduled for 2 seconds from now
+[03:41:07:958][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:41:10:086][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 38. RTT Confidence was 0.500000, is now 0.550000
+[03:41:10:086][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 0.550000 calculated next timesync start time scheduled for 43 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:41:20:706][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:41:22:821][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 0.550000, is now 0.605000
+[03:41:22:821][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.605000 calculated next timesync start time scheduled for 36 seconds from now (defaultNextSync 40 rttBonus 20)
+[03:41:53:094][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:41:55:225][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 40. RTT Confidence was 0.550000, is now 0.605000
+[03:41:55:225][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.605000 calculated next timesync start time scheduled for 47 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:41:57:644][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:41:57:644][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:41:57:665][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:41:58:160][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:41:58:822][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:42:00:990][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 29. RTT Confidence was 0.605000, is now 0.665500
+[03:42:00:990][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 0.665500 calculated next timesync start time scheduled for 48 seconds from now (defaultNextSync 40 rttBonus 33)
+[03:42:12:869][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:42:12:869][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:42:12:942][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 sent timesync request. DS will schedule the timesync
+[03:42:12:942][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 0.665500 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:42:12:963][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:42:12:963][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:42:12:975][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 sent timesync request. DS will schedule the timesync
+[03:42:12:975][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.605000 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:42:13:944][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:42:13:985][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 1
+[03:42:16:058][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 30. RTT Confidence was 0.665500, is now 0.732050
+[03:42:16:058][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.732050 calculated next timesync start time scheduled for 48 seconds from now (defaultNextSync 40 rttBonus 26)
+[03:42:16:120][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 39. RTT Confidence was 0.605000, is now 0.665500
+[03:42:16:120][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.665500 calculated next timesync start time scheduled for 47 seconds from now (defaultNextSync 40 rttBonus 32)
+[03:43:03:122][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:43:04:067][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:43:05:246][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.665500, is now 0.732050
+[03:43:05:246][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.732050 calculated next timesync start time scheduled for 54 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:43:06:180][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 31. RTT Confidence was 0.732050, is now 0.805255
+[03:43:06:180][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.805255 calculated next timesync start time scheduled for 60 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:43:58:305][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:43:59:256][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:44:01:382][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.732050, is now 0.805255
+[03:44:01:382][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.805255 calculated next timesync start time scheduled for 56 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:44:06:182][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:44:08:278][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 31. RTT Confidence was 0.805255, is now 0.885781
+[03:44:08:278][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.885781 calculated next timesync start time scheduled for 68 seconds from now (defaultNextSync 40 rttBonus 37)
+[03:44:11:080][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[03:44:11:080][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 5248, admin 1 - with reason 1
+[03:44:11:081][0x4058d1c0] [Info ] [void NativeLogCallback] [General] The admin member has left the session, promoting another user to admin
+[03:44:11:081][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Migrated admin to user 76561198286632013 (Meddy) at index 1, refId 44737
+[03:44:15:606][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: leave user 76561198286632013, index 0, refid 0, reason 1
+[03:44:15:607][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198286632013 (Meddy) at index 1, refId 44737, admin 1 - with reason 1
+[03:44:15:607][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[03:44:15:607][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:44:15:610][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:44:22:903][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: allocate the server as user 76561198011172579, name dabes, size 24, password 
+[03:44:22:903][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198011172579 (dabes)
+[03:44:22:903][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 has allocated the server for game with max 24 members. The session is joinable
+[03:44:23:200][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198011172579 (dabes) at index 0, refId 15040, admin 1
+[03:44:23:201][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:44:23:232][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:44:23:232][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:44:23:336][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:44:25:320][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 0, is now 30. RTT Confidence was 0.500000, is now 0.500000
+[03:44:25:320][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 first timesync start time scheduled for 2 seconds from now
+[03:44:27:322][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:44:29:433][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 32. RTT Confidence was 0.500000, is now 0.550000
+[03:44:29:433][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 0.550000 calculated next timesync start time scheduled for 42 seconds from now (defaultNextSync 40 rttBonus 38)
+[03:44:38:794][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: join the server as user 76561198286632013, name Meddy, size 24, password 
+[03:44:38:794][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198286632013 (Meddy)
+[03:44:39:092][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198286632013 (Meddy) at index 1, refId 38209, admin 0
+[03:44:39:092][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:44:41:231][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 0, is now 38. RTT Confidence was 0.500000, is now 0.500000
+[03:44:41:231][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 first timesync start time scheduled for 2 seconds from now
+[03:44:43:242][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:44:45:372][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 40. RTT Confidence was 0.500000, is now 0.550000
+[03:44:45:372][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.550000 calculated next timesync start time scheduled for 35 seconds from now (defaultNextSync 40 rttBonus 25)
+[03:45:09:136][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:45:09:136][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:45:09:167][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:45:09:663][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:45:11:437][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:45:13:554][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 30. RTT Confidence was 0.550000, is now 0.605000
+[03:45:13:554][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.605000 calculated next timesync start time scheduled for 45 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:45:20:382][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:45:22:523][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 40. RTT Confidence was 0.550000, is now 0.605000
+[03:45:22:523][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.605000 calculated next timesync start time scheduled for 37 seconds from now (defaultNextSync 40 rttBonus 22)
+[03:45:22:759][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198066917116
+[03:45:24:407][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:45:24:407][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:45:24:490][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 sent timesync request. DS will schedule the timesync
+[03:45:24:490][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.605000 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:45:24:501][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 sent timesync request. DS will schedule the timesync
+[03:45:24:501][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 40 and RTT confidence 0.605000 calculated next timesync start time scheduled for 1 seconds from now (defaultNextSync 2 rttBonus 1)
+[03:45:24:511][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:45:24:511][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:45:25:498][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:45:25:509][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 1
+[03:45:26:555][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198066917116: join the server as user 76561198066917116, name SerLongdoober, size 24, password 
+[03:45:26:555][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198066917116 (SerLongdoober)
+[03:45:26:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198066917116 (SerLongdoober) at index 2, refId 57346, admin 0
+[03:45:26:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198066917116, allocated timesync slot 2
+[03:45:27:583][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 28. RTT Confidence was 0.605000, is now 0.665500
+[03:45:27:583][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 28 and RTT confidence 0.665500 calculated next timesync start time scheduled for 40 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:45:27:634][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 40, is now 37. RTT Confidence was 0.605000, is now 0.665500
+[03:45:27:634][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 0.665500 calculated next timesync start time scheduled for 42 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:45:28:983][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198066917116 completed timesync. Prev RTT was 0, is now 49. RTT Confidence was 0.500000, is now 0.500000
+[03:45:28:983][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198066917116 first timesync start time scheduled for 2 seconds from now
+[03:45:30:986][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198066917116, allocated timesync slot 0
+[03:45:33:156][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198066917116 completed timesync. Prev RTT was 49, is now 53. RTT Confidence was 0.500000, is now 0.550000
+[03:45:33:156][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198066917116 with lastRTT 53 and RTT confidence 0.550000 calculated next timesync start time scheduled for 28 seconds from now (defaultNextSync 40 rttBonus 12)
+[03:45:45:296][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198066917116: leave user 76561198066917116, index 0, refid 0, reason 1
+[03:45:45:297][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198066917116 (SerLongdoober) at index 2, refId 57346, admin 0 - with reason 1
+[03:46:07:585][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:46:09:637][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 1
+[03:46:09:679][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 28, is now 27. RTT Confidence was 0.665500, is now 0.732050
+[03:46:09:679][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 27 and RTT confidence 0.732050 calculated next timesync start time scheduled for 52 seconds from now (defaultNextSync 40 rttBonus 32)
+[03:46:11:754][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 37. RTT Confidence was 0.665500, is now 0.732050
+[03:46:11:754][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 0.732050 calculated next timesync start time scheduled for 49 seconds from now (defaultNextSync 40 rttBonus 28)
+[03:47:00:760][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:47:01:682][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:47:02:885][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 39. RTT Confidence was 0.732050, is now 0.805255
+[03:47:02:885][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.805255 calculated next timesync start time scheduled for 63 seconds from now (defaultNextSync 40 rttBonus 39)
+[03:47:03:778][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 27, is now 30. RTT Confidence was 0.732050, is now 0.805255
+[03:47:03:778][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 0.805255 calculated next timesync start time scheduled for 60 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:47:10:261][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:48:03:788][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:48:05:895][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 32. RTT Confidence was 0.805255, is now 0.885781
+[03:48:05:895][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 0.885781 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:48:05:895][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:48:08:013][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.805255, is now 0.885781
+[03:48:08:013][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.885781 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:49:07:905][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:49:10:012][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 31. RTT Confidence was 0.885781, is now 0.974359
+[03:49:10:012][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 0.974359 calculated next timesync start time scheduled for 64 seconds from now (defaultNextSync 40 rttBonus 26)
+[03:49:10:023][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:49:10:886][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:49:12:136][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.885781, is now 0.974359
+[03:49:12:136][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 0.974359 calculated next timesync start time scheduled for 60 seconds from now (defaultNextSync 40 rttBonus 22)
+[03:50:12:146][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:50:14:016][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 1
+[03:50:14:283][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 0.974359, is now 1.000000
+[03:50:14:283][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:50:16:132][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 30. RTT Confidence was 0.974359, is now 1.000000
+[03:50:16:132][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 77 seconds from now (defaultNextSync 40 rttBonus 37)
+[03:51:11:568][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:51:24:288][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:51:26:407][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:51:26:407][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 75 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:51:33:137][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:51:35:250][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:51:35:250][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:52:36:255][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:52:38:350][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 30. RTT Confidence was 1.000000, is now 1.000000
+[03:52:38:350][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 30 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:52:41:415][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:52:43:541][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:52:43:541][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:52:53:321][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:52:53:324][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:53:04:675][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:53:04:853][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[03:53:04:853][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[03:53:44:551][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:53:46:677][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:53:46:677][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 74 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:53:48:351][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:53:50:456][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 30, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[03:53:50:456][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[03:54:49:365][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received connection from Steam ID 76561198423991619
+[03:54:53:269][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198423991619: join the server as user 76561198423991619, name Mossberg Purge, size 24, password 
+[03:54:53:269][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Starting auth of new session member 76561198423991619 (Mossberg Purge)
+[03:54:53:526][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joined and authenticated user 76561198423991619 (Mossberg Purge) at index 2, refId 47618, admin 0
+[03:54:53:527][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198423991619, allocated timesync slot 0
+[03:54:55:659][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198423991619 completed timesync. Prev RTT was 0, is now 37. RTT Confidence was 0.500000, is now 0.500000
+[03:54:55:659][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198423991619 first timesync start time scheduled for 2 seconds from now
+[03:54:57:664][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198423991619, allocated timesync slot 0
+[03:54:58:856][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198423991619: leave user 76561198423991619, index 0, refid 0, reason 1
+[03:54:58:856][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198423991619 (Mossberg Purge) at index 2, refId 47618, admin 0 - with reason 1
+[03:54:58:857][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Abandoning timesync for user 76561198423991619 in timesync slot 0
+[03:54:58:888][0x4058d1c0] [Warn ] [void NativeLogCallback] [General] User 76561198011172579 sent game datagram targeted to recipient with refId 47618, but there is no such member in the session
+[03:55:00:685][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:55:02:816][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[03:55:02:816][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[03:55:04:867][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:55:06:462][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:55:08:557][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[03:55:08:557][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 74 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:56:18:824][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:56:20:939][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:56:20:940][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 64 seconds from now (defaultNextSync 40 rttBonus 24)
+[03:56:22:560][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:56:24:675][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[03:56:24:676][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 74 seconds from now (defaultNextSync 40 rttBonus 34)
+[03:57:05:484][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:57:24:947][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[03:57:27:064][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:57:27:065][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 75 seconds from now (defaultNextSync 40 rttBonus 35)
+[03:57:38:680][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:57:40:776][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 29. RTT Confidence was 1.000000, is now 1.000000
+[03:57:40:776][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[03:58:41:778][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:58:42:066][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 1
+[03:58:43:863][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 28. RTT Confidence was 1.000000, is now 1.000000
+[03:58:43:863][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 28 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[03:58:44:202][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[03:58:44:202][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 77 seconds from now (defaultNextSync 40 rttBonus 37)
+[03:59:06:149][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[03:59:53:872][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[03:59:55:974][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 28, is now 28. RTT Confidence was 1.000000, is now 1.000000
+[03:59:55:974][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 28 and RTT confidence 1.000000 calculated next timesync start time scheduled for 63 seconds from now (defaultNextSync 40 rttBonus 23)
+[04:00:01:208][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:00:03:332][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[04:00:03:332][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 74 seconds from now (defaultNextSync 40 rttBonus 34)
+[04:00:58:977][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:01:01:081][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 28, is now 29. RTT Confidence was 1.000000, is now 1.000000
+[04:01:01:081][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[04:01:06:751][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:01:17:337][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:01:19:451][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[04:01:19:451][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 64 seconds from now (defaultNextSync 40 rttBonus 24)
+[04:02:03:085][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:02:05:187][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[04:02:05:187][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 70 seconds from now (defaultNextSync 40 rttBonus 30)
+[04:02:23:453][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:02:25:573][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[04:02:25:573][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[04:03:07:435][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:03:15:193][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:03:17:287][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 29. RTT Confidence was 1.000000, is now 1.000000
+[04:03:17:287][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 1.000000 calculated next timesync start time scheduled for 69 seconds from now (defaultNextSync 40 rttBonus 29)
+[04:03:41:575][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:03:43:690][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[04:03:43:690][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 78 seconds from now (defaultNextSync 40 rttBonus 38)
+[04:04:26:287][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:04:28:392][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[04:04:28:392][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[04:05:01:696][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:05:03:836][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[04:05:03:836][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 76 seconds from now (defaultNextSync 40 rttBonus 36)
+[04:05:08:131][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:05:44:397][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:05:46:501][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 29. RTT Confidence was 1.000000, is now 1.000000
+[04:05:46:502][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 29 and RTT confidence 1.000000 calculated next timesync start time scheduled for 68 seconds from now (defaultNextSync 40 rttBonus 28)
+[04:06:19:843][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:06:21:973][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 38. RTT Confidence was 1.000000, is now 1.000000
+[04:06:21:973][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 38 and RTT confidence 1.000000 calculated next timesync start time scheduled for 78 seconds from now (defaultNextSync 40 rttBonus 38)
+[04:06:54:510][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:06:56:611][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 29, is now 31. RTT Confidence was 1.000000, is now 1.000000
+[04:06:56:611][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 31 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[04:07:08:793][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:07:39:977][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:07:42:093][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 38, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[04:07:42:093][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[04:07:58:615][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:08:00:721][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 31, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[04:08:00:721][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 61 seconds from now (defaultNextSync 40 rttBonus 21)
+[04:08:44:095][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:08:46:212][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 39, is now 37. RTT Confidence was 1.000000, is now 1.000000
+[04:08:46:212][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 37 and RTT confidence 1.000000 calculated next timesync start time scheduled for 60 seconds from now (defaultNextSync 40 rttBonus 20)
+[04:09:01:729][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198011172579, allocated timesync slot 0
+[04:09:03:843][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 completed timesync. Prev RTT was 32, is now 32. RTT Confidence was 1.000000, is now 1.000000
+[04:09:03:843][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198011172579 with lastRTT 32 and RTT confidence 1.000000 calculated next timesync start time scheduled for 77 seconds from now (defaultNextSync 40 rttBonus 37)
+[04:09:09:496][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:09:39:904][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:09:39:907][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:09:46:221][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Sending TimeSync start notification to user 76561198286632013, allocated timesync slot 0
+[04:09:48:350][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 completed timesync. Prev RTT was 37, is now 39. RTT Confidence was 1.000000, is now 1.000000
+[04:09:48:350][0x4058d1c0] [Info ] [void NativeLogCallback] [General] User 76561198286632013 with lastRTT 39 and RTT confidence 1.000000 calculated next timesync start time scheduled for 62 seconds from now (defaultNextSync 40 rttBonus 22)
+[04:09:52:090][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 0
+[04:09:52:091][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'false'
+[04:09:52:552][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: change joinable flag to 1
+[04:09:52:553][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Joinable flag changed to 'true'
+[04:09:52:772][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:10:02:284][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198011172579: leave user 76561198011172579, index 0, refid 0, reason 1
+[04:10:02:284][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198011172579 (dabes) at index 0, refId 15040, admin 1 - with reason 1
+[04:10:02:285][0x4058d1c0] [Info ] [void NativeLogCallback] [General] The admin member has left the session, promoting another user to admin
+[04:10:02:285][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Migrated admin to user 76561198286632013 (Meddy) at index 1, refId 38209
+[04:10:10:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Received request from 76561198286632013: leave user 76561198286632013, index 0, refid 0, reason 1
+[04:10:10:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Removing user 76561198286632013 (Meddy) at index 1, refId 38209, admin 1 - with reason 1
+[04:10:10:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Everyone left the server, resetting to 'available for use'
+[04:10:10:834][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[04:10:10:835][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:10:10:838][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:10:28:334][0x4058d1c0] [Warn ] [void NativeLogCallback] [General] Connection to Steam ID 76561198011172579 failed with error Timeout
+[04:10:38:950][0x4058d1c0] [Warn ] [void NativeLogCallback] [General] Connection to Steam ID 76561198286632013 failed with error Timeout
+[04:25:11:738][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'
+[04:40:12:506][0x4058d1c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_stats' into 'lua_config/sms_stats_data.json'

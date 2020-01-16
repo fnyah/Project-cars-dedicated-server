@@ -1,0 +1,59 @@
+//#########################################################
+
+[Session][Log]            dbgsession/dbg 2020-01-07 @ 03.51.36/dedicatedserver.log
+
+[Session][ID]             02f0-7e41-38f3-9139
+[Session][Platform]       Linux
+[Session][Config]         Release
+[Session][Exe]            ./DedicatedServerCmd.elf
+[Session][ExeBit]         64
+[Session][Date]           07/01/2020
+[Session][Time]           03:51:36
+
+[Session][Exe Built]      Unknown
+[Session][Machine]        Unknown
+[Session][GCC Version]    4.8.2
+[Session][Toolset]        x86_64-pc-linux-gnu.GCC.4.8.2
+[Session][Title]          
+
+[Session][BuildVer]       
+[Session][BuildVerInt]    0
+[Session][BuildVerUnmod]  
+[Session][BuildVerSimple] 
+[Session][BuildVerInject] 
+[Session][BuildVerInjSim] 
+
+[Session][BaseVer]        v1.5.946.0
+
+//#########################################################
+
+[03:51:36:316][0x759e21c0] [Info ] [BLogBase::Init] [Internal] Initialised Log
+[03:51:36:322][0x759e21c0] [Info ] [void NativeLogCallback] [General] Starting up the Dedicated Server Library.
+[03:51:36:322][0x759e21c0] [Info ] [void NativeLogCallback] [General] Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: dabes
+- max session size: 24
+- details: secure, bind IP INADDR_ANY, Steam port 8776, host port 27025, query port 27026, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[03:51:36:369][0x759e21c0] [Info ] [void NativeLogCallback] [General] HttpApi started
+[03:51:36:379][0x759e21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_base'...
+[03:51:36:380][0x759e21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_rotate'...
+[03:51:36:380][0x759e21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'lib_rotate'...
+[03:51:36:381][0x759e21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_motd'...
+[03:51:36:381][0x759e21c0] [Info ] [void NativeLogCallback] [General] Loading LuaApi addon 'sms_stats'...
+[03:51:36:382][0x759e21c0] [Info ] [void NativeLogCallback] [General] LuaApi started
+[03:51:36:382][0x759e21c0] [Info ] [void NativeLogCallback] [General] Dedicated server is starting...
+[03:51:37:288][0x759e21c0] [Info ] [void NativeLogCallback] [General] Connection to Steam established
+[03:51:37:288][0x759e21c0] [Info ] [void NativeLogCallback] [General] Received public IP 3.19.223.225
+[03:51:37:489][0x759e21c0] [Info ] [void NativeLogCallback] [General] Server logged in with Steam id 90131711570647044 ; server is secure
+[03:51:37:489][0x759e21c0] [Info ] [void NativeLogCallback] [General] Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131711570647044 ; switching to running state
+[03:51:37:489][0x759e21c0] [Info ] [void NativeLogCallback] [General] Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[03:54:27:732][0x759e21c0] [Info ] [void NativeLogCallback] [General] Shutting down
+[03:54:27:879][0x759e21c0] [Info ] [BLogBase::Term] [Internal] Terminating Log

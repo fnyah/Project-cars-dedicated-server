@@ -1,0 +1,79 @@
+OS Mem Stats: Total: 0.13 MB, Alloc: 0.08 MB, Free: 0.05 MB
+Creating pool 'System'
+
+//=------------------------------------------------------------------------------------------------------------------=\\
+ Code Versions: Engine Date: Sep  7 2018 at 15:17:34
+
+   # : v1.5.946.0 - 
+   :
+   : : v1.5.0.0 - 
+   : : v1.2.0.0 - 
+   : : v0.0.0.1 - 
+
+//=------------------------------------------------------------------------------------------------------------------=\\
+
+
+Command Line (Ansi):
+
+Exec   : ./DedicatedServerCmd.elf
+
+[Internal] Initialised Log
+[Internal] Initialised Log
+_BTitleConfig: Creating default config languages
+##########################################################
+
+   Initialised Session: 02f0-7e41-6195-ea54
+
+                  Exec: ./DedicatedServerCmd.elf
+          Command Line: 
+
+   Base System Memory...
+
+                  Size: 16 MB
+              Mem Free: 15166864 bytes (14.46 MB)
+             Max Pools: 16
+     Mem Trace Enabled: False
+         Title Version: 0xc24e42ab - '0.0.0.0'
+   Bootup OS Mem Total: 0.13 MB
+   Bootup OS Mem Free : 0.04 MB
+   Bootup OS Mem Alloc: 0.08 MB
+
+##########################################################
+[Internal] Initialised Log
+[OneSock] Linux Network Initialized
+[OneSock] Net_OneSockThread Created and Started Successfully
+[2020-01-12 06:21:58] INFO: Starting up the Dedicated Server Library.
+[2020-01-12 06:21:58] INFO: Server configuration loaded:
+- server build version: 1
+- protocol version: 64 (1.0.0.64)
+- server name: The GT Club - Fun and Competitive GT3 Racing
+- max session size: 64
+- details: secure, bind IP INADDR_ANY, Steam port 8766, host port 27015, query port 27016, password protected no
+- whitelist size: 0
+- blacklist size: 0
+- lua api: enabled
+- http api: enabled listening at 127.0.0.1:9000, 1 extra header(s) defined
+- allow empty join: enabled
+- game setup control: enabled
+- sports play : disabled
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+Support for GlobalStartProfilerEvent not added yet for linux
+Support for GlobalEndProfilerEvent not added yet for linux
+Setting breakpad minidump AppID = 378860
+[2020-01-12 06:21:58] INFO: HttpApi started
+[2020-01-12 06:21:58] INFO: Loading LuaApi addon 'sms_base'...
+[2020-01-12 06:21:58] INFO: Loading LuaApi addon 'sms_rotate'...
+[2020-01-12 06:21:58] INFO: Loading LuaApi addon 'lib_rotate'...
+[2020-01-12 06:21:58] INFO: Loading LuaApi addon 'sms_motd'...
+[2020-01-12 06:21:58] INFO: Loading LuaApi addon 'sms_stats'...
+[2020-01-12 06:21:58] INFO: LuaApi started
+[2020-01-12 06:21:58] INFO: Dedicated server is starting...
+[2020-01-12 06:21:59] INFO: Connection to Steam established
+[2020-01-12 06:21:59] INFO: Received public IP 3.19.223.225
+[2020-01-12 06:21:59] INFO: Server logged in with Steam id 90131826639996936 ; server is secure
+[2020-01-12 06:21:59] INFO: Server startup finished: AppId 378860, public IP 3.19.223.225, Steam id 90131826639996936 ; switching to running state
+[2020-01-12 06:21:59] INFO: Saving persistent data for addon 'sms_rotate' into 'lua_config/sms_rotate_data.json'
+[2020-01-12 06:22:07] INFO: Shutting down
+[Internal] Terminating Log
+#### Flushing Default BDatabase
+Base: Exiting Application: ret code 0x0
